@@ -39,21 +39,14 @@ return [
             'errorAction' => 'site/error',
         ],
         
+        /*
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
-            'suffix' => '.html',
             'rules' => [
-                [
-                    'pattern' => '',
-                    'route' => 'site/index',
-                    'suffix' => ''
-                ],
-                '<action:(about|contact|login|signup)>' => 'site/<action>',
-
             ],
-            
         ],
+       */
         
     ],
     'params' => $params,
